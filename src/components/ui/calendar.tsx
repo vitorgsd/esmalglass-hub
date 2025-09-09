@@ -75,7 +75,7 @@ function Calendar({
             return (
               <Select
                 value={value?.toString()}
-                onValue-change={(value) => {
+                onValueChange={(value) => {
                   handleChange(value)
                 }}
               >
